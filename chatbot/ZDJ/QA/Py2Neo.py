@@ -8,8 +8,8 @@ import re
 def py2neodb():
     test_graph = Graph(
     'http://59.110.243.182:7474',
-    username='neo4j',
-    password='kcW584194150'
+    username='xxxxx',
+    password='xxxxxxx'
     )
     return test_graph
 

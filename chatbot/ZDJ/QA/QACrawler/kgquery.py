@@ -6,8 +6,8 @@ import re
 def kgquery_entity(entity1, entity2):
     test_graph = Graph(
     'http://59.110.243.182:7474',
-    username='neo4j',
-    password='kcW584194150'
+    username='xxxxx',
+    password='xxxxxxx'
     )
     matcher = NodeMatcher(test_graph)
     find_rela  = test_graph.run(
